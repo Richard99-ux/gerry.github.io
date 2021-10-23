@@ -1,0 +1,292 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Lucida Grande";
+}
+
+a {
+  text-decoration: none;
+}
+
+.clear {
+  clear: left;
+}
+
+.container {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.top-wrapper {
+  padding: 180px 0px 180px 0px;
+  background-image: url(https://iili.io/5oCbb2.md.png);
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+.top-wrapper h1 {
+  opacity: 0.8;
+  font-size: 60px;
+  letter-spacing: 5px;
+  margin-bottom: 3px;
+  font-family: 'Pacifico', cursive;
+}
+
+.top-wrapper h2 {
+  opacity: 0.8;
+  font-size: 25px;
+  letter-spacing: 5px;
+  margin-bottom: 15px;
+  font-family: 'Pacifico', cursive;
+}
+
+.top-wrapper p {
+  opacity: 0.7;
+  margin-bottom: 3px;
+}
+
+.btn-wrapper {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+}
+
+.github {
+  background-color: black;
+}
+
+.instagram {
+  background-color: #ca76eb;
+  margin-right: 10px;
+}
+
+.linkedin {
+  background-color: #0e76a8;
+}
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.btn:hover {
+  opacity: 1;
+  -webkit-transform: scale(1.08);
+  transform: scale(1.08);
+}
+
+.fa {
+  margin-right: 5px;
+  font-size: 0.75em;
+}
+
+/* header*/
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  width: 124px;
+  margin-top: 20px;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  margin-right: -25px;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.profile-wrapper {
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  text-align: center;
+  background-color: #f7f7f7;
+  
+}
+
+.heading {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: #5f5d60;
+}
+
+.heading h2 {
+  font-weight: normal;
+  font-family: 'Pacifico', cursive;
+  font-size: 30px;
+}
+
+/* profile team*/
+
+.profile {
+  float: left;
+  width: 20%;
+}
+
+.profile-icon {
+  position: relative;
+}
+
+.profile-icon p {
+  position: absolute;
+  top: 105%;
+  width: 100%;
+  color:black;
+  font-size: 16px;
+}
+
+.profile-icon img {
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+  width:200px;
+}
+ 
+.profile-icon img:hover {
+  -webkit-transform: scale(1.08);
+  transform: scale(1.08);
+}
+
+.txt-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 55px;
+  font-size: 15px;
+  color: #b3aeb5;
+}
+
+.heading h3 {
+  font-weight: normal;
+  padding-top: 10px;
+}
+
+/* workflow */
+.workflow-wrapper {
+  border-bottom: 0px solid #f7f7f7;
+  padding-bottom: 80px;
+  text-align: left;
+  background-color:#80eded;
+}
+
+.workflow-wrapper img {
+  padding:70px 30px 30px 20px;
+  float:right;
+}
+
+
+/* message */
+.message-wrapper {
+  border-bottom: 0px solid #f7f7f7;
+  text-align: left;
+  background-color:#80eded;
+  padding-bottom:100px;
+}
+
+.message-wrapper img {
+  padding:50px 20px 100px 20px;
+  float:left;
+}
+
+.message {
+  padding: 15px 40px;
+  background-color: #5dca88;
+  cursor: pointer;
+  box-shadow: 0 7px #1a7940;
+}
+
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+/* footer */
+footer img {
+  width: 125px;
+}
+
+footer p {
+  color: #b3aeb5;
+  font-size: 12px;
+}
+
+footer {
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+/*Icon menu*/
+span.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
+}
+/*Line*/
+
+.line {
+  padding: 110px 0px;
+  background-image: url(https://iili.io/5oKZZX.md.png);
+  background-size: cover;
+  background-color:#80eded;
+}
+
+/*Form*/
+.contact-form {
+  padding-top: 10px;
+  background-color: #80eded;
+}
+
+input, textarea {
+  width:600px;
+  margin-top:10px;
+  margin-bottom:30px;
+  padding:20px;
+  font-size:18px;
+  border:1px solid #dee7ec;
+}
+
+.contact-form img {
+  padding:130px 50px 200px 50px;
+  float:right;
+}
