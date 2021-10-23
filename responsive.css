@@ -1,0 +1,126 @@
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+  .top-wrapper h1 {
+    font-size: 40px;
+  }
+  
+  .profile {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+
+ .heading h2 {
+    font-size: 30px;
+  }
+
+  .workflow-wrapper img {
+    width:50%;
+    padding:50px 20px 50px 20px;
+    
+  }
+  
+  .message-wrapper img {
+    width:50%;
+    padding:20px 20px 50px 20px;
+  }
+   
+
+  .contact-form img {
+    width:50%;
+    padding:0px 20px 50px 20px;
+  }
+
+}
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+  .header-right {
+    display: none;
+  }
+  
+  span.menu-icon {
+    display: block;
+  }
+
+  .profile {
+    width: 100%;
+  }
+ 
+  .btn {
+    width: 100%;
+  }
+  
+  .instagram {
+    margin-bottom: 10px;
+  }
+  
+  .top-wrapper {
+    text-align: left;
+  }
+  
+  .top-wrapper h1 {
+    font-size: 40px;
+    line-height: 36px;
+  }
+
+  .top-wrapper h2 {
+    font-size: 18px;
+    line-height: 36px;
+    margin-top: 15px;
+  }
+  
+  .top-wrapper p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .heading h2 {
+    font-size: 25px;
+  }
+
+  .message-wrapper {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .message-wrapper h2 {
+    font-size: 22px;
+    line-height: 20px;
+  }
+
+  input, textarea {
+    width: 100%;
+    margin-top:10px;
+    margin-bottom:30px;
+    padding:20px;
+    font-size:18px;
+    border:1px solid #dee7ec;
+  }
+
+  .contact-form img {
+    padding:50px 50px 50px 50px;
+    float:right;
+  }
+
+   footer {
+    text-align: center;
+  }
+  
+  .workflow-wrapper img {
+    width:100%;
+    padding:50px 20px 50px 20px;
+    
+  }
+  
+  .message-wrapper img {
+    width:100%;
+    padding:20px 20px 50px 20px;
+  }
+   
+
+  .contact-form img {
+    width:100%;
+    padding:0px 20px 50px 20px;
+  }
+  
+}
